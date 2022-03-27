@@ -252,3 +252,39 @@
 
 // const isParity = nums.map((n) =>
 //     n % 2 === 0 ? 'even' : 'odd');
+
+
+// array.find methods
+
+let movies = [
+    'Peaky Blinders', 'The Inglorious Bastard', 'Thr Thor'
+]
+
+const movie = movies.find(movie => {
+    return movie.includes('The')
+})
+
+
+const movie2 = movies.includes(movie2 => {
+
+    return movie2.indexOf('T') === 0;
+}
+
+)
+
+
+const booksRating = [{
+
+    title: 'The Rational Optimist',
+    author: ['Matt Ridley'],
+    rating: 4.3,
+
+    title: 'Atomic Habits',
+    author: ['James Clear'],
+    rating: 4.1
+
+}
+]
+
+
+const bookR = booksRating.find(b => b.rating > 4.1)
