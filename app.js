@@ -256,35 +256,90 @@
 
 // array.find methods
 
-let movies = [
-    'Peaky Blinders', 'The Inglorious Bastard', 'Thr Thor'
-]
+// let movies = [
+//     'Peaky Blinders', 'The Inglorious Bastard', 'The Thor'
+// ]
 
-const movie = movies.find(movie => {
-    return movie.includes('The')
-})
-
-
-const movie2 = movies.includes(movie2 => {
-
-    return movie2.indexOf('T') === 0;
-}
-
-)
+// const movie = movies.find(movie => {
+//     return movie.includes('The')
+// })
 
 
-const booksRating = [{
+// const movie2 = movies.includes(movie2 => {
 
-    title: 'The Rational Optimist',
-    author: ['Matt Ridley'],
-    rating: 4.3,
+//     return movie2.indexOf('T') === 0;
+// }
 
-    title: 'Atomic Habits',
-    author: ['James Clear'],
-    rating: 4.1
-
-}
-]
+// )
 
 
-const bookR = booksRating.find(b => b.rating > 4.1)
+// const books = [{
+
+//     title: 'The Rational Optimist',
+//     author: ['Matt Ridley'],
+//     rating: 4.3,
+
+//     title: 'Atomic Habits',
+//     author: ['James Clear'],
+//     rating: 4.1
+
+// }
+// ]
+
+
+// const bookR = books.find(b => b.rating > 4.1)
+
+
+//search bar using filter
+
+// const query = 'The';
+// const result = books.filter(book => {
+//     const title = book.title.toLowerCase();
+//     return title.includes(query.toLowerCase())
+// })
+
+
+// some and every function
+
+// const animals = ['dog', 'dat', 'dot', 'dak']
+
+
+// const allLetters = animals.every(word => word.length === 3);
+
+// const fewLetters = animals.some(word => word[0] === 'd');
+
+
+// sort pt.2
+
+// const price = [500, 40.5, 38.9, 21, 99, 121.3]
+
+// const ascSort = price.sort((a, b) => a - b)
+
+
+// books.sort((a, b) => a.rating - b.rating)
+
+
+
+// reduce method
+
+// const nums = [3, 4, 76, 34, 90, 33]
+
+// const product = nums.reduce((a, b) => {
+//     return a * b;
+// })
+
+
+// const grades = [87, 46, 78, 98, 93, 89]
+
+// const maxGrade = grades.reduce((max, currVal) => {
+//     if (currVal > max) return currVal;
+//     return max;
+// })
+
+
+
+// const minGrade = grades.reduce((min, currVal) => {
+//     if (currVal < min) return currVal;
+//     return min;
+// })
+
