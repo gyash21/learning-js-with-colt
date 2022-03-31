@@ -396,3 +396,63 @@
 // }
 
 // const aniMals = {...catAni, ...dogAni}
+
+
+// destructuring (array)
+
+// const runners = ['Yash', 'Harsh', 'Sumit', 'Rushi']
+
+// const [first, , fourth] = runners
+
+// destructuring objects
+
+// const myProfile = {
+//     name: 'Yash',
+//     last: 'Gupta',
+//     age: 23,
+//     title: 'Mr.'
+// }
+
+
+// const newProfile = {
+//     name: myName,
+//     last: myLast
+// } = myProfile;
+
+
+// nested destructuring
+
+// const runners = [{
+//     first: 'Usain',
+//     last: 'Bolt',
+//     country: 'Jamaica'
+// },
+
+// {
+//     first: 'Yohan',
+//     last: 'Blake',
+//     country: 'Jamaica'
+// },
+
+// {
+//     first: 'Justin',
+//     last: 'Gatlin',
+//     country: 'USA'
+// }]
+
+
+// const [{ first: goldWinner }] = runners;
+
+// destructuring parameters
+
+// const topRunner = {
+//     first: 'Usain',
+//     last: 'Bolt',
+//     country: 'Jamaica'
+// }
+
+
+// function nowPrint({ first, last, country }) {
+//     console.log(`${first} ${last} from ${country
+//         }`)
+// }
