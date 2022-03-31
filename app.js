@@ -456,3 +456,73 @@
 //     console.log(`${first} ${last} from ${country
 //         }`)
 // }
+
+
+//OBJECTS//
+
+// object shorthand
+
+// const getStats = (arr) => {
+//     const min = Math.min(...arr);
+//     const max = Math.max(...arr);
+//     const sum = arr.reduce((sum, r) => sum + r);
+//     const avg = sum / arr.length;
+//     return {
+//         min,
+//         max,
+//         sum,
+//         avg
+//     }
+// }
+
+// const array = [10, 90, 43, 51, 22, 39]
+
+// const stats = getStats(array)
+
+
+
+//computed properties
+
+// const team = {
+//     role1: 'host',
+//     name1: 'Yash',
+//     role2: 'host2',
+//     name2: 'Krrish'
+// }
+
+
+// const addIt = (obj, k, v) => ({
+//     ...obj, [k]: v,
+
+// })
+
+// const res = addIt(team, 'Who is more happy?', 'Me')
+
+
+
+// adding function(methods) in an object
+
+
+// const math = {
+//     add: function (x,y){
+//         return x+y;
+//     },
+
+//     divide:function(x,y){
+//         return x/y;
+//     }
+// }
+
+
+// shorthand for object function
+
+// const auth = {
+//     login() {
+//         console.log('Welcome welcome welcome DOSTO')
+//     },
+
+//     logout:() => {
+//         console.log('OK BYE TATA')
+
+// }
+// }
