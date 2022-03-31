@@ -343,3 +343,56 @@
 //     return min;
 // })
 
+// deafult parameters syntax
+
+// function multiply(a, b = 3) {
+//     return a * b;
+// }
+
+
+// const greet = (person, greeting = 'Hi') => {
+//     console.log(`${greeting},${person}!`)
+// }
+
+
+// spread
+
+// function call
+
+// function passBy(a, b, c) {
+//     console.log(a)
+//     console.log(b)
+//     console.log(c)
+// }
+
+// const colors = ['orange', 'purple', 'yellow']
+
+// passBy(...colors)
+
+
+// spread array literals
+
+
+// const namesG = ['ab', 'cd', 'ef']
+// const namesF = ['gh', 'ij', 'kl']
+
+
+// const allNames = [...namesF, ...namesG]
+
+
+// spread object literals
+
+
+// const catAni = {
+//     leg: 3,
+//     domestic: 'no',
+//     cute: 'yes'
+// }
+
+// const dogAni = {
+//     leg: 4,
+//     domestic: 'yes',
+//     cute: 'yes'
+// }
+
+// const aniMals = {...catAni, ...dogAni}
