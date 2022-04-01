@@ -1,4 +1,4 @@
-//for loops
+// for loops
 
 // let myStudents = [
 //     {
@@ -95,7 +95,7 @@
 // }
 
 
-//password validator
+// password validator
 
 // function isValidPassword(password, username) {
 //     if (password.length < 8 && password.indexOf(' ') !== -1 && password.indexOf(username) !== -1) {
@@ -134,7 +134,7 @@
 
 
 
-//playing cards
+// playing cards
 
 // function pick(arr) {
 //     const idx = Math.floor(Math.random() * arr.length);
@@ -151,11 +151,11 @@
 // }
 
 
-//ARRAY METHODS
+// ARRAY METHODS
 
 
 
-//forEach method
+// forEach method
 
 // const num = [19, 20, 21, 22, 23];
 
@@ -206,7 +206,7 @@
 //     return x * x;
 // }
 
-//now converting abouve funtion into arrow function
+// now converting abouve funtion into arrow function
 
 // const square = (x) => {
 //     return x * x;
@@ -236,7 +236,7 @@
 
 // const doubles2 = nums.map(n => n * 2)
 
-//another example
+// another example
 
 // const parityList = nums.map(function (n) {
 //     if (n % 2 === 0) return 'even';
@@ -290,7 +290,7 @@
 // const bookR = books.find(b => b.rating > 4.1)
 
 
-//search bar using filter
+// search bar using filter
 
 // const query = 'The';
 // const result = books.filter(book => {
@@ -458,7 +458,7 @@
 // }
 
 
-//OBJECTS//
+// OBJECTS//
 
 // object shorthand
 
@@ -481,7 +481,7 @@
 
 
 
-//computed properties
+// computed properties
 
 // const team = {
 //     role1: 'host',
@@ -521,8 +521,81 @@
 //         console.log('Welcome welcome welcome DOSTO')
 //     },
 
-//     logout:() => {
+//     logout: () => {
 //         console.log('OK BYE TATA')
 
+//     }
 // }
+
+
+// THIS KEYWORD
+
+
+// const bioData = {
+//     first: 'Yash',
+//     last: 'Gupta',
+//     nickname: 'Sonu',
+
+//     fullName() {
+//         console.log(this.first)
+//     }
 // }
+
+
+// const myNames = {
+//     names: ['Yash', 'Harsh', 'Sumit', 'Rushi'],
+//     pickNames() {
+//         const { names } = this;
+
+//         const idx = Math.floor(Math.random() * names.length);
+
+//         return names[idx]
+//     },
+
+//     start() {
+//         this.timerId = setInterval(() => {
+//             console.log(this.pickNames())
+//         }, 1500)
+
+//     },
+//     stop() {
+//         clearInterval(this.timerId)
+//         console.log("Bas bas, bahot hua!!!")
+//     }
+
+// }
+
+
+
+
+// CREATING A DECK OF CARDS MACHINE
+
+
+
+// const myDeck = {
+//     deck: [],
+//     drawnCards: [],
+//     suits: ['club', 'heart', 'diamond', 'spade'],
+//     values: '2,3,4,5,6,7,8,9,10,J,Q,K,A',
+//     iniDeck() {
+//         const { suits, values, deck } = this;
+//         for (let value of values.split(',')) {
+//             for (let suit of suits) {
+//                 deck.push({
+//                     value, suit
+//                 })
+//             }
+//         }
+//     },
+
+//     drawCard() {
+//         const card = this.card.pop();
+//         this.drawnCards.push(card);
+//         return card;
+//     }
+// }
+
+
+
+
+
